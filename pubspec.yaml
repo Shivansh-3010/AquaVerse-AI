@@ -1,0 +1,63 @@
+name: aquaverse
+description: AquaVerse - AI-powered beach safety and water intelligence app powered by INCOIS data
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP
+  http: ^1.2.1
+
+  # Maps (OpenStreetMap, no API key needed)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Location
+  geolocator: ^11.0.0
+
+  # Storage
+  shared_preferences: ^2.3.0
+  flutter_secure_storage: ^9.2.2
+
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+
+  # Google Generative AI (Gemini - free tier chatbot)
+  google_generative_ai: ^0.4.3
+
+  # Utilities
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  flutter_markdown: ^0.7.3
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/tide_locations.json
+
+  # Using system fonts — no font assets needed

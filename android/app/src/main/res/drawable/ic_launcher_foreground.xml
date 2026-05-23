@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wave shape representing AquaVerse -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,62 Q27,46 40,62 Q53,78 66,62 Q79,46 94,62 L94,82 Q79,98 66,82 Q53,66 40,82 Q27,98 14,82 Z"/>
+</vector>
